@@ -34,12 +34,13 @@
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
-    CATransform3D transform = CATransform3DIdentity;
     /**
      CATransform3DMakeTranslation 3d平移
      CATransform3DMakeScale 缩放
      CATransform3DMakeRotation 旋转
      */
+    CATransform3D transform = CATransform3DIdentity;
+  
 //    CATransform3DConcat 合并 a * b
     transform = CATransform3DScale(transform, 1.2, 1.3, 1.4); // 缩放
     transform = CATransform3DRotate(transform, M_PI, 1, 3, 3);
