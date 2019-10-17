@@ -1,8 +1,8 @@
 //
-//  PSGradientLayer.h
+//  PSLayerContent.h
 //  LayerObject
 //
-//  Created by Peng on 2019/5/21.
+//  Created by Peng on 2019/6/11.
 //  Copyright © 2019 PengShuai. All rights reserved.
 //
 
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface PSGradientLayer : UIView
+@interface PSLayerContent : UIView
 
 @end
 

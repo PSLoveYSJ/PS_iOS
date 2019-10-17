@@ -1,8 +1,8 @@
 //
-//  ViewAnimation.h
-//  AnimationObject
+//  PSLayerLabelController.h
+//  LayerObject
 //
-//  Created by Peng on 2019/5/21.
+//  Created by Peng on 2019/7/9.
 //  Copyright © 2019 PengShuai. All rights reserved.
 //
 
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface ViewAnimation : UIView
+@interface PSLayerLabelController : UIViewController
 
 @end
 

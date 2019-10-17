@@ -1,8 +1,8 @@
 //
-//  KeyAnimation.h
+//  PSCAAnimationController.h
 //  AnimationObject
 //
-//  Created by Peng on 2019/5/21.
+//  Created by Peng on 2019/7/1.
 //  Copyright © 2019 PengShuai. All rights reserved.
 //
 
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface KeyAnimation : UIView
+@interface PSCAAnimationController : UIViewController
 
 @end
 

@@ -7,20 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B80DEFDD22C6040500ABE96A /* PSAffineTransformVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B80DEFDB22C6040500ABE96A /* PSAffineTransformVC.m */; };
+		B80DEFDE22C6040500ABE96A /* PSAffineTransformVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B80DEFDC22C6040500ABE96A /* PSAffineTransformVC.xib */; };
+		B80DEFE222C60EC000ABE96A /* PS3DAffineTransformVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B80DEFE022C60EC000ABE96A /* PS3DAffineTransformVC.m */; };
+		B80DEFE322C60EC000ABE96A /* PS3DAffineTransformVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B80DEFE122C60EC000ABE96A /* PS3DAffineTransformVC.xib */; };
+		B872CB1822C9B4B8005D8275 /* PSCATransitionController.m in Sources */ = {isa = PBXBuildFile; fileRef = B872CB1622C9B4B8005D8275 /* PSCATransitionController.m */; };
+		B872CB1922C9B4B8005D8275 /* PSCATransitionController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B872CB1722C9B4B8005D8275 /* PSCATransitionController.xib */; };
+		B872CB1D22C9B763005D8275 /* PSCAAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B872CB1B22C9B763005D8275 /* PSCAAnimationController.m */; };
+		B872CB1E22C9B763005D8275 /* PSCAAnimationController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B872CB1C22C9B763005D8275 /* PSCAAnimationController.xib */; };
 		B88C98DF2293C101002EA7E0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B88C98DE2293C101002EA7E0 /* AppDelegate.m */; };
 		B88C98E22293C101002EA7E0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B88C98E12293C101002EA7E0 /* ViewController.m */; };
 		B88C98E52293C101002EA7E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B88C98E32293C101002EA7E0 /* Main.storyboard */; };
 		B88C98E72293C102002EA7E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B88C98E62293C102002EA7E0 /* Assets.xcassets */; };
 		B88C98EA2293C102002EA7E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B88C98E82293C102002EA7E0 /* LaunchScreen.storyboard */; };
 		B88C98ED2293C102002EA7E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B88C98EC2293C102002EA7E0 /* main.m */; };
-		B88C98F62293C12B002EA7E0 /* ViewAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = B88C98F52293C12B002EA7E0 /* ViewAnimation.m */; };
-		B88C98F92293CC55002EA7E0 /* AffineTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = B88C98F82293CC55002EA7E0 /* AffineTransform.m */; };
-		B88C98FC2293D14D002EA7E0 /* CA3DTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = B88C98FB2293D14D002EA7E0 /* CA3DTransform.m */; };
-		B88C98FF2293E053002EA7E0 /* CATransitionAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = B88C98FE2293E053002EA7E0 /* CATransitionAnimation.m */; };
-		B88C99022293E34A002EA7E0 /* KeyAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = B88C99012293E34A002EA7E0 /* KeyAnimation.m */; };
+		B895E98122D3154100624CED /* PSWavyController.m in Sources */ = {isa = PBXBuildFile; fileRef = B895E98022D3154100624CED /* PSWavyController.m */; };
+		B895E98422D3157100624CED /* PSWavyView.m in Sources */ = {isa = PBXBuildFile; fileRef = B895E98322D3157100624CED /* PSWavyView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B80DEFD922C5F21700ABE96A /* PSDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSDefines.h; sourceTree = "<group>"; };
+		B80DEFDA22C6040500ABE96A /* PSAffineTransformVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSAffineTransformVC.h; sourceTree = "<group>"; };
+		B80DEFDB22C6040500ABE96A /* PSAffineTransformVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSAffineTransformVC.m; sourceTree = "<group>"; };
+		B80DEFDC22C6040500ABE96A /* PSAffineTransformVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PSAffineTransformVC.xib; sourceTree = "<group>"; };
+		B80DEFDF22C60EC000ABE96A /* PS3DAffineTransformVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PS3DAffineTransformVC.h; sourceTree = "<group>"; };
+		B80DEFE022C60EC000ABE96A /* PS3DAffineTransformVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PS3DAffineTransformVC.m; sourceTree = "<group>"; };
+		B80DEFE122C60EC000ABE96A /* PS3DAffineTransformVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PS3DAffineTransformVC.xib; sourceTree = "<group>"; };
+		B872CB1522C9B4B8005D8275 /* PSCATransitionController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSCATransitionController.h; sourceTree = "<group>"; };
+		B872CB1622C9B4B8005D8275 /* PSCATransitionController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSCATransitionController.m; sourceTree = "<group>"; };
+		B872CB1722C9B4B8005D8275 /* PSCATransitionController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PSCATransitionController.xib; sourceTree = "<group>"; };
+		B872CB1A22C9B763005D8275 /* PSCAAnimationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSCAAnimationController.h; sourceTree = "<group>"; };
+		B872CB1B22C9B763005D8275 /* PSCAAnimationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSCAAnimationController.m; sourceTree = "<group>"; };
+		B872CB1C22C9B763005D8275 /* PSCAAnimationController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PSCAAnimationController.xib; sourceTree = "<group>"; };
 		B88C98DA2293C101002EA7E0 /* AnimationObject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationObject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B88C98DD2293C101002EA7E0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B88C98DE2293C101002EA7E0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -31,16 +49,10 @@
 		B88C98E92293C102002EA7E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B88C98EB2293C102002EA7E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B88C98EC2293C102002EA7E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B88C98F42293C12B002EA7E0 /* ViewAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewAnimation.h; sourceTree = "<group>"; };
-		B88C98F52293C12B002EA7E0 /* ViewAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewAnimation.m; sourceTree = "<group>"; };
-		B88C98F72293CC55002EA7E0 /* AffineTransform.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AffineTransform.h; sourceTree = "<group>"; };
-		B88C98F82293CC55002EA7E0 /* AffineTransform.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AffineTransform.m; sourceTree = "<group>"; };
-		B88C98FA2293D14D002EA7E0 /* CA3DTransform.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CA3DTransform.h; sourceTree = "<group>"; };
-		B88C98FB2293D14D002EA7E0 /* CA3DTransform.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CA3DTransform.m; sourceTree = "<group>"; };
-		B88C98FD2293E053002EA7E0 /* CATransitionAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CATransitionAnimation.h; sourceTree = "<group>"; };
-		B88C98FE2293E053002EA7E0 /* CATransitionAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CATransitionAnimation.m; sourceTree = "<group>"; };
-		B88C99002293E34A002EA7E0 /* KeyAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyAnimation.h; sourceTree = "<group>"; };
-		B88C99012293E34A002EA7E0 /* KeyAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyAnimation.m; sourceTree = "<group>"; };
+		B895E97F22D3154100624CED /* PSWavyController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSWavyController.h; sourceTree = "<group>"; };
+		B895E98022D3154100624CED /* PSWavyController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSWavyController.m; sourceTree = "<group>"; };
+		B895E98222D3157100624CED /* PSWavyView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSWavyView.h; sourceTree = "<group>"; };
+		B895E98322D3157100624CED /* PSWavyView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSWavyView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,11 +85,24 @@
 		B88C98DC2293C101002EA7E0 /* AnimationObject */ = {
 			isa = PBXGroup;
 			children = (
-				B88C98F32293C118002EA7E0 /* Animation */,
+				B80DEFD922C5F21700ABE96A /* PSDefines.h */,
 				B88C98DD2293C101002EA7E0 /* AppDelegate.h */,
 				B88C98DE2293C101002EA7E0 /* AppDelegate.m */,
 				B88C98E02293C101002EA7E0 /* ViewController.h */,
 				B88C98E12293C101002EA7E0 /* ViewController.m */,
+				B895E97E22D3123300624CED /* Animation */,
+				B80DEFDA22C6040500ABE96A /* PSAffineTransformVC.h */,
+				B80DEFDB22C6040500ABE96A /* PSAffineTransformVC.m */,
+				B80DEFDC22C6040500ABE96A /* PSAffineTransformVC.xib */,
+				B80DEFDF22C60EC000ABE96A /* PS3DAffineTransformVC.h */,
+				B80DEFE022C60EC000ABE96A /* PS3DAffineTransformVC.m */,
+				B80DEFE122C60EC000ABE96A /* PS3DAffineTransformVC.xib */,
+				B872CB1522C9B4B8005D8275 /* PSCATransitionController.h */,
+				B872CB1622C9B4B8005D8275 /* PSCATransitionController.m */,
+				B872CB1722C9B4B8005D8275 /* PSCATransitionController.xib */,
+				B872CB1A22C9B763005D8275 /* PSCAAnimationController.h */,
+				B872CB1B22C9B763005D8275 /* PSCAAnimationController.m */,
+				B872CB1C22C9B763005D8275 /* PSCAAnimationController.xib */,
 				B88C98E32293C101002EA7E0 /* Main.storyboard */,
 				B88C98E62293C102002EA7E0 /* Assets.xcassets */,
 				B88C98E82293C102002EA7E0 /* LaunchScreen.storyboard */,
@@ -87,19 +112,13 @@
 			path = AnimationObject;
 			sourceTree = "<group>";
 		};
-		B88C98F32293C118002EA7E0 /* Animation */ = {
+		B895E97E22D3123300624CED /* Animation */ = {
 			isa = PBXGroup;
 			children = (
-				B88C98F42293C12B002EA7E0 /* ViewAnimation.h */,
-				B88C98F52293C12B002EA7E0 /* ViewAnimation.m */,
-				B88C98F72293CC55002EA7E0 /* AffineTransform.h */,
-				B88C98F82293CC55002EA7E0 /* AffineTransform.m */,
-				B88C98FA2293D14D002EA7E0 /* CA3DTransform.h */,
-				B88C98FB2293D14D002EA7E0 /* CA3DTransform.m */,
-				B88C98FD2293E053002EA7E0 /* CATransitionAnimation.h */,
-				B88C98FE2293E053002EA7E0 /* CATransitionAnimation.m */,
-				B88C99002293E34A002EA7E0 /* KeyAnimation.h */,
-				B88C99012293E34A002EA7E0 /* KeyAnimation.m */,
+				B895E97F22D3154100624CED /* PSWavyController.h */,
+				B895E98022D3154100624CED /* PSWavyController.m */,
+				B895E98222D3157100624CED /* PSWavyView.h */,
+				B895E98322D3157100624CED /* PSWavyView.m */,
 			);
 			path = Animation;
 			sourceTree = "<group>";
@@ -161,7 +180,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B872CB1E22C9B763005D8275 /* PSCAAnimationController.xib in Resources */,
 				B88C98EA2293C102002EA7E0 /* LaunchScreen.storyboard in Resources */,
+				B872CB1922C9B4B8005D8275 /* PSCATransitionController.xib in Resources */,
+				B80DEFE322C60EC000ABE96A /* PS3DAffineTransformVC.xib in Resources */,
+				B80DEFDE22C6040500ABE96A /* PSAffineTransformVC.xib in Resources */,
 				B88C98E72293C102002EA7E0 /* Assets.xcassets in Resources */,
 				B88C98E52293C101002EA7E0 /* Main.storyboard in Resources */,
 			);
@@ -174,14 +197,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B895E98422D3157100624CED /* PSWavyView.m in Sources */,
 				B88C98E22293C101002EA7E0 /* ViewController.m in Sources */,
-				B88C98F62293C12B002EA7E0 /* ViewAnimation.m in Sources */,
-				B88C99022293E34A002EA7E0 /* KeyAnimation.m in Sources */,
-				B88C98FF2293E053002EA7E0 /* CATransitionAnimation.m in Sources */,
-				B88C98F92293CC55002EA7E0 /* AffineTransform.m in Sources */,
-				B88C98FC2293D14D002EA7E0 /* CA3DTransform.m in Sources */,
+				B80DEFE222C60EC000ABE96A /* PS3DAffineTransformVC.m in Sources */,
+				B872CB1822C9B4B8005D8275 /* PSCATransitionController.m in Sources */,
+				B895E98122D3154100624CED /* PSWavyController.m in Sources */,
 				B88C98ED2293C102002EA7E0 /* main.m in Sources */,
 				B88C98DF2293C101002EA7E0 /* AppDelegate.m in Sources */,
+				B80DEFDD22C6040500ABE96A /* PSAffineTransformVC.m in Sources */,
+				B872CB1D22C9B763005D8275 /* PSCAAnimationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

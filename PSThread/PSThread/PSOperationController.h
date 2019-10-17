@@ -1,8 +1,8 @@
 //
-//  CATransitionAnimation.h
-//  AnimationObject
+//  PSOperationController.h
+//  PSThread
 //
-//  Created by Peng on 2019/5/21.
+//  Created by Peng on 2019/7/7.
 //  Copyright © 2019 PengShuai. All rights reserved.
 //
 
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface CATransitionAnimation : UIView
+@interface PSOperationController : UIViewController
 
 @end
 

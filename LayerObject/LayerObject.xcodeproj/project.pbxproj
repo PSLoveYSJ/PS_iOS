@@ -15,7 +15,15 @@
 		B85902A4228E682B0043B9CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B85902A3228E682B0043B9CC /* main.m */; };
 		B85902AD228E86F60043B9CC /* PSLayerLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = B85902AC228E86F60043B9CC /* PSLayerLabel.m */; };
 		B85902B0228E997C0043B9CC /* PSShapeLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B85902AF228E997C0043B9CC /* PSShapeLayer.m */; };
-		B88C98AA22939390002EA7E0 /* PSGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B88C98A922939390002EA7E0 /* PSGradientLayer.m */; };
+		B89A335A22D43A6700A3A0FE /* PSPartcileController.m in Sources */ = {isa = PBXBuildFile; fileRef = B89A335922D43A6700A3A0FE /* PSPartcileController.m */; };
+		B89A335D22D43B7900A3A0FE /* PSGradientController.m in Sources */ = {isa = PBXBuildFile; fileRef = B89A335C22D43B7900A3A0FE /* PSGradientController.m */; };
+		B89A336022D43B9A00A3A0FE /* PSShapeController.m in Sources */ = {isa = PBXBuildFile; fileRef = B89A335F22D43B9A00A3A0FE /* PSShapeController.m */; };
+		B89A336322D43BAD00A3A0FE /* PSLayerLabelController.m in Sources */ = {isa = PBXBuildFile; fileRef = B89A336222D43BAD00A3A0FE /* PSLayerLabelController.m */; };
+		B89A336622D43BBE00A3A0FE /* PSlayerContentController.m in Sources */ = {isa = PBXBuildFile; fileRef = B89A336522D43BBE00A3A0FE /* PSlayerContentController.m */; };
+		B89A336C22D43DE200A3A0FE /* PSRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = B89A336822D43DE200A3A0FE /* PSRouter.m */; };
+		B89A336D22D43DE200A3A0FE /* PSRouterRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = B89A336922D43DE200A3A0FE /* PSRouterRequest.m */; };
+		B8EAD9FE22AF8113004BDBAF /* PSLayerContent.m in Sources */ = {isa = PBXBuildFile; fileRef = B8EAD9FD22AF8113004BDBAF /* PSLayerContent.m */; };
+		B8EADA0022AF821B004BDBAF /* About in Resources */ = {isa = PBXBuildFile; fileRef = B8EAD9FF22AF821B004BDBAF /* About */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,8 +41,24 @@
 		B85902AC228E86F60043B9CC /* PSLayerLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSLayerLabel.m; sourceTree = "<group>"; };
 		B85902AE228E997C0043B9CC /* PSShapeLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSShapeLayer.h; sourceTree = "<group>"; };
 		B85902AF228E997C0043B9CC /* PSShapeLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSShapeLayer.m; sourceTree = "<group>"; };
-		B88C98A822939390002EA7E0 /* PSGradientLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSGradientLayer.h; sourceTree = "<group>"; };
-		B88C98A922939390002EA7E0 /* PSGradientLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSGradientLayer.m; sourceTree = "<group>"; };
+		B89A335822D43A6700A3A0FE /* PSPartcileController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSPartcileController.h; sourceTree = "<group>"; };
+		B89A335922D43A6700A3A0FE /* PSPartcileController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSPartcileController.m; sourceTree = "<group>"; };
+		B89A335B22D43B7900A3A0FE /* PSGradientController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSGradientController.h; sourceTree = "<group>"; };
+		B89A335C22D43B7900A3A0FE /* PSGradientController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSGradientController.m; sourceTree = "<group>"; };
+		B89A335E22D43B9A00A3A0FE /* PSShapeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSShapeController.h; sourceTree = "<group>"; };
+		B89A335F22D43B9A00A3A0FE /* PSShapeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSShapeController.m; sourceTree = "<group>"; };
+		B89A336122D43BAD00A3A0FE /* PSLayerLabelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSLayerLabelController.h; sourceTree = "<group>"; };
+		B89A336222D43BAD00A3A0FE /* PSLayerLabelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSLayerLabelController.m; sourceTree = "<group>"; };
+		B89A336422D43BBE00A3A0FE /* PSlayerContentController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSlayerContentController.h; sourceTree = "<group>"; };
+		B89A336522D43BBE00A3A0FE /* PSlayerContentController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSlayerContentController.m; sourceTree = "<group>"; };
+		B89A336822D43DE200A3A0FE /* PSRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSRouter.m; sourceTree = "<group>"; };
+		B89A336922D43DE200A3A0FE /* PSRouterRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSRouterRequest.m; sourceTree = "<group>"; };
+		B89A336A22D43DE200A3A0FE /* PSRouterRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSRouterRequest.h; sourceTree = "<group>"; };
+		B89A336B22D43DE200A3A0FE /* PSRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSRouter.h; sourceTree = "<group>"; };
+		B8EAD9FC22AF8113004BDBAF /* PSLayerContent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSLayerContent.h; sourceTree = "<group>"; };
+		B8EAD9FD22AF8113004BDBAF /* PSLayerContent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSLayerContent.m; sourceTree = "<group>"; };
+		B8EAD9FF22AF821B004BDBAF /* About */ = {isa = PBXFileReference; lastKnownFileType = text; path = About; sourceTree = "<group>"; };
+		B8EADA0122AF83E3004BDBAF /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +95,7 @@
 				B8590295228E68290043B9CC /* AppDelegate.m */,
 				B8590297228E68290043B9CC /* ViewController.h */,
 				B8590298228E68290043B9CC /* ViewController.m */,
+				B8EAD9FF22AF821B004BDBAF /* About */,
 				B85902AA228E68540043B9CC /* Layer */,
 				B859029A228E68290043B9CC /* Main.storyboard */,
 				B859029D228E682B0043B9CC /* Assets.xcassets */,
@@ -84,14 +109,54 @@
 		B85902AA228E68540043B9CC /* Layer */ = {
 			isa = PBXGroup;
 			children = (
+				B89A336722D43DE200A3A0FE /* Router */,
+				B89A335622D43A2600A3A0FE /* V */,
+				B89A335522D43A1900A3A0FE /* C */,
+				B8EADA0122AF83E3004BDBAF /* Header.h */,
+			);
+			path = Layer;
+			sourceTree = "<group>";
+		};
+		B89A335522D43A1900A3A0FE /* C */ = {
+			isa = PBXGroup;
+			children = (
+				B89A335822D43A6700A3A0FE /* PSPartcileController.h */,
+				B89A335922D43A6700A3A0FE /* PSPartcileController.m */,
+				B89A335B22D43B7900A3A0FE /* PSGradientController.h */,
+				B89A335C22D43B7900A3A0FE /* PSGradientController.m */,
+				B89A335E22D43B9A00A3A0FE /* PSShapeController.h */,
+				B89A335F22D43B9A00A3A0FE /* PSShapeController.m */,
+				B89A336122D43BAD00A3A0FE /* PSLayerLabelController.h */,
+				B89A336222D43BAD00A3A0FE /* PSLayerLabelController.m */,
+				B89A336422D43BBE00A3A0FE /* PSlayerContentController.h */,
+				B89A336522D43BBE00A3A0FE /* PSlayerContentController.m */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		B89A335622D43A2600A3A0FE /* V */ = {
+			isa = PBXGroup;
+			children = (
 				B85902AB228E86F60043B9CC /* PSLayerLabel.h */,
 				B85902AC228E86F60043B9CC /* PSLayerLabel.m */,
 				B85902AE228E997C0043B9CC /* PSShapeLayer.h */,
 				B85902AF228E997C0043B9CC /* PSShapeLayer.m */,
-				B88C98A822939390002EA7E0 /* PSGradientLayer.h */,
-				B88C98A922939390002EA7E0 /* PSGradientLayer.m */,
+				B8EAD9FC22AF8113004BDBAF /* PSLayerContent.h */,
+				B8EAD9FD22AF8113004BDBAF /* PSLayerContent.m */,
 			);
-			path = Layer;
+			path = V;
+			sourceTree = "<group>";
+		};
+		B89A336722D43DE200A3A0FE /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				B89A336B22D43DE200A3A0FE /* PSRouter.h */,
+				B89A336822D43DE200A3A0FE /* PSRouter.m */,
+				B89A336A22D43DE200A3A0FE /* PSRouterRequest.h */,
+				B89A336922D43DE200A3A0FE /* PSRouterRequest.m */,
+			);
+			name = Router;
+			path = ../../../PSRouter/PSRouter/Router;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +216,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8EADA0022AF821B004BDBAF /* About in Resources */,
 				B85902A1228E682B0043B9CC /* LaunchScreen.storyboard in Resources */,
 				B859029E228E682B0043B9CC /* Assets.xcassets in Resources */,
 				B859029C228E68290043B9CC /* Main.storyboard in Resources */,
@@ -164,11 +230,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B88C98AA22939390002EA7E0 /* PSGradientLayer.m in Sources */,
+				B89A336D22D43DE200A3A0FE /* PSRouterRequest.m in Sources */,
+				B89A336622D43BBE00A3A0FE /* PSlayerContentController.m in Sources */,
+				B89A336C22D43DE200A3A0FE /* PSRouter.m in Sources */,
+				B89A335D22D43B7900A3A0FE /* PSGradientController.m in Sources */,
 				B8590299228E68290043B9CC /* ViewController.m in Sources */,
+				B89A336322D43BAD00A3A0FE /* PSLayerLabelController.m in Sources */,
 				B85902AD228E86F60043B9CC /* PSLayerLabel.m in Sources */,
+				B89A336022D43B9A00A3A0FE /* PSShapeController.m in Sources */,
 				B85902A4228E682B0043B9CC /* main.m in Sources */,
+				B89A335A22D43A6700A3A0FE /* PSPartcileController.m in Sources */,
 				B85902B0228E997C0043B9CC /* PSShapeLayer.m in Sources */,
+				B8EAD9FE22AF8113004BDBAF /* PSLayerContent.m in Sources */,
 				B8590296228E68290043B9CC /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

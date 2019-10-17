@@ -7,16 +7,12 @@
 //
 
 #import "ViewController.h"
-#import "Layer/PSLayerLabel.h"
-#import "Layer/PSShapeLayer.h"
-#import "Layer/PSGradientLayer.h"
+#import "Layer/Header.h"
 
-@interface ViewController ()
+@interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
-@property (nonatomic, strong) PSLayerLabel *layerLabel;
-@property (nonatomic, strong) PSShapeLayer *shapeLayer;
-@property (nonatomic, strong) PSGradientLayer *gradientLayer;
-
+@property (nonatomic, strong) UITableView *tableView;
+@property (nonatomic, strong) NSMutableArray *contentArray;
 
 @end
 
@@ -24,14 +20,58 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.layerLabel = [[PSLayerLabel alloc] initWithFrame:CGRectMake(0, 44, [UIScreen mainScreen].bounds.size.width, 100) text:@"自定义LayerLabel"];
-    [self.view addSubview:self.layerLabel];
-    self.shapeLayer = [[PSShapeLayer alloc] initWithFrame:CGRectMake(0, 44 + 100, [UIScreen mainScreen].bounds.size.width, 100)];
-    [self.view addSubview:self.shapeLayer];
-    self.gradientLayer = [[PSGradientLayer alloc] initWithFrame:CGRectMake(0, self.shapeLayer.frame.size.height + self.shapeLayer.frame.origin.y, [UIScreen mainScreen].bounds.size.width, 100)];
-    [self.view addSubview:self.gradientLayer];
-    // Do any additional setup after loading the view, typically from a nib.
+    self.title = @"CALayer";
+    [self.view addSubview:self.tableView];
+ 
 }
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return [self.contentArray count];
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:NSStringFromClass(UITableViewCell)];
+    cell.textLabel.text = self.contentArray[indexPath.row];
+    return cell;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    NSString *text = self.contentArray[indexPath.row];
+    if ([text isEqualToString:@"粒子系统"]) {
+        [PSRouter ps_handleRequest:@"Partcile"];
+    } else if ([text isEqualToString:@"渐变色"]) {
+        [PSRouter ps_handleRequest:@"Gradient"];
+    } else if ([text isEqualToString:@"自定义Label"]) {
+        [PSRouter ps_handleRequest:@"LayerLabel"];
+    } else if ([text isEqualToString:@"ShapeLayer矢量图形"]) {
+        [PSRouter ps_handleRequest:@"ShapeLayer"];
+    } else if ([text isEqualToString:@"LayerContent"]) {
+        [PSRouter ps_handleRequest:@"LayerContent"];
+    }
+}
+
+- (NSMutableArray *)contentArray {
+    if (!_contentArray) {
+        _contentArray = [NSMutableArray arrayWithObjects:@"粒子系统"
+                         ,@"渐变色"
+                         ,@"自定义Label"
+                         ,@"ShapeLayer矢量图形"
+                         ,@"LayerContent", nil];
+    }
+    return _contentArray;
+}
+
+- (UITableView *)tableView {
+    if (!_tableView) {
+        _tableView = [[UITableView alloc] initWithFrame:self.view.frame style:UITableViewStylePlain];
+        _tableView.delegate = self;
+        _tableView.dataSource = self;
+        [_tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:NSStringFromClass(UITableViewCell)];
+        
+    }
+    return _tableView;
+}
+
 
 
 @end
